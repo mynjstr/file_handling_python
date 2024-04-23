@@ -15,4 +15,8 @@ with open("numbers.txt", "r") as integers_file:
                 even_file.write(f'{line}\n')
 
 #if the number is odd
+        else:
 #open the"odd.txt" file and write the odd numbers extracted
+            with open("odd.txt", "a") as odd_file:
+                odd_file.write(f'{line}\n')
+                
