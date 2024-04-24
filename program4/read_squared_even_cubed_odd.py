@@ -11,7 +11,7 @@ with open("integers.txt", "r") as integers_file:
 
         if int(line) % 2 == 0:
 #Put each even integer into double.txt and square them.
-            squared_even_numbers = line ** 2
+            squared_even_numbers = int(line) ** 2
 
 #open the "double.txt" file and write the squared even numbers extracted
             with open("double.txt", "a") as squared_even_file:
@@ -20,8 +20,7 @@ with open("integers.txt", "r") as integers_file:
 #if the number is odd
 #Put each odd integer into triple.txt and cube them.
         else:
-            cubed_odd_numbers = line ** 3
+            cubed_odd_numbers = int(line) ** 3
 #open the"triple.txt" file and write the cubed odd numbers extracted
             with open("triple.txt", "a") as cubed_odd_file:
-                cubed_odd_file.write(f'{cubed_odd_file}\n')
-                
+                cubed_odd_file.write(f'{cubed_odd_numbers}\n')
