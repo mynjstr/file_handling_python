@@ -8,6 +8,9 @@ with open("numbers.txt", "r") as integers_file:
 
 #separate even and odd numbers extracted from the file
 #if the number is even
+
+        if int(line) % 2 == 0:
+
 #Put each even integer into double.txt and square them.
 #open the "even.txt" file and write the squared even numbers extracted
 #if the number is odd
