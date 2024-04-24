@@ -21,5 +21,7 @@ with open("integers.txt", "r") as integers_file:
 #Put each odd integer into triple.txt and cube them.
         else:
             cubed_odd_numbers = line ** 3
-            
 #open the"triple.txt" file and write the cubed odd numbers extracted
+            with open("triple.txt", "a") as cubed_odd_file:
+                cubed_odd_file.write(f'{cubed_odd_file}\n')
+                
