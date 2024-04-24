@@ -1,8 +1,8 @@
 #pseudocode
 #write many lines of content into a text file named mylife.txt.
 #continue requesting additional lines until the person rejects.
-continue = True
-while continue:
+resume = True
+while resume:
 
 #Ask for the user's input
     input_line = ("Enter line: ")
