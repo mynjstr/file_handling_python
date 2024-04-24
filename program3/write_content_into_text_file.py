@@ -23,7 +23,7 @@ while resume:
                     break
 
 #When the user is finished, break both loops and print a message
-                elif again.lower() == "n":
+                elif extra.lower() == "n":
                     print ("You're Done Let's gooooo")
                     resume = False 
 
