@@ -18,5 +18,5 @@
     "Ryokan Kurita": "2.0",
     "Taro Raimon": "2.4",
     "Jester Tiedra": "1.0",
-    "Akira "Chuubou" Nakabou": "1.2"
+    "Akira Nakabou": "1.2"
 }
