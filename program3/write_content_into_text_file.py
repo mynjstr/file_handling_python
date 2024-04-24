@@ -5,7 +5,7 @@ resume = True
 while resume:
 
 #Ask for the user's input
-    input_line = ("Enter line: ")
+    input_line = input("Enter line: ")
 
 #Insert a newline character at the line's end.
     input_line_break = input_line + ("\n")
@@ -31,4 +31,8 @@ while resume:
                 else:
                     print("You have entered an incorrect response Kindly input only y or n.")
                     continue
-                
+
+
+
+
+
