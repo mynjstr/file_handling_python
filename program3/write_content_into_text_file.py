@@ -3,8 +3,10 @@
 #continue requesting additional lines until the person rejects.
 continue = True
 while continue:
-    
+
 #Ask for the user's input
+    input_line = ("Enter line: ")
+
 #Insert a newline character at the line's end.
 #Open mylife.txt file in append mode
 #inquire the user as to whether additional lines are needed.
