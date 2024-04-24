@@ -10,8 +10,11 @@ with open("integers.txt", "r") as integers_file:
 #if the number is even
 
         if int(line) % 2 == 0:
-
 #Put each even integer into double.txt and square them.
+            squared_even_numbers = line ** 2
+            with open("double.txt", "a") as squared_even_file:
+                squared_even_file.write(f'{squared_even_numbers}\n')
+
 #open the "even.txt" file and write the squared even numbers extracted
 #if the number is odd
 #Put each odd integer into triple.txt and cube them.
