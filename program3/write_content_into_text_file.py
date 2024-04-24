@@ -1,6 +1,6 @@
 #pseudocode
-#write many lines of content into a text file named mylife.txt.
-#continue requesting additional lines until the person rejects.
+#write many lines of content into a text file named mylife.txt
+#continue requesting additional lines until the person rejects
 resume = True
 while resume:
 
@@ -13,12 +13,18 @@ while resume:
 #Open mylife.txt file in append mode
     with open("mylife.txt", "a") as mylife_file:
         mylife_file.write(input_line)
+        
 #inquire the user as to whether additional lines are needed.
         while resume:
                 extra = input("Are there more lines y/n? ")
-# Break the inner loop if the user wishes to add additional lines.
+
+#Break the inner loop if the user wishes to add additional lines
                 if extra.lower() == "y":
                     break
-                
-## When the user is finished, break both loops and print a message.
-# Produce a message indicating that the user's input is incorrect
+
+#When the user is finished, break both loops and print a message
+                elif again.lower() == "n":
+                    print ("You're Done Let's gooooo")
+                    resume = False 
+
+#Produce a message indicating that the user's input is incorrect
