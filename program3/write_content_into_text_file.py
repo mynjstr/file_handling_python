@@ -6,8 +6,10 @@ while resume:
 
 #Ask for the user's input
     input_line = ("Enter line: ")
-
+    
 #Insert a newline character at the line's end.
+    input_line_break = input_line + ("\n")
+
 #Open mylife.txt file in append mode
 #inquire the user as to whether additional lines are needed.
 # Break the inner loop if the user wishes to add additional lines.
