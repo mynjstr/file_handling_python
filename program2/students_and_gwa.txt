@@ -1,0 +1,22 @@
+{
+    "Baek HyunWoo": "1.1",
+    "Hong Hae in": "1.5",
+    "Aunt Beomja": "2.1",
+    "Isagi Yoichi": "1.1",
+    "Hibari Kyoya": "1.2",
+    "Sawada Tsunayoshi": "2.0",
+    "Hayato Gokudera": "1.2",
+    "Takeshi Yamato": "2.1",
+    "Ryohei Sasagawa": "1.7",
+    "Lambo": "1.5",
+    "Mukuro Rokudo": "1.5",
+    "Chrome Rokudo": "1.3",
+    "Kobayakawa Sena": "1.8",
+    "Riku Kaitani": "1.1",
+    "Hiruma Yoichi": "1.6",
+    "Takeru Yamato": "1.1",
+    "Ryokan Kurita": "2.0",
+    "Taro Raimon": "2.4",
+    "Jester Tiedra": "1.0",
+    "Akira "Chuubou" Nakabou": "1.2"
+}
