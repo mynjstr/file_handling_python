@@ -13,7 +13,7 @@ while resume:
 #Open mylife.txt file in append mode
     with open("mylife.txt", "a") as mylife_file:
         mylife_file.write(input_line)
-        
+
 #inquire the user as to whether additional lines are needed.
         while resume:
                 extra = input("Are there more lines y/n? ")
@@ -28,3 +28,7 @@ while resume:
                     resume = False 
 
 #Produce a message indicating that the user's input is incorrect
+                else:
+                    print("You have entered an incorrect response Kindly input only y or n.")
+                    continue
+                
